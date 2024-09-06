@@ -1,0 +1,10 @@
+.container {
+  height: 400px;
+
+  .viewSelection {
+    padding: 5px;
+    height: 380px;
+    border-radius: 7px;
+    
+  }
+}

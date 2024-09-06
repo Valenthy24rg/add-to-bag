@@ -1,0 +1,109 @@
+.container {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+
+  & .name {
+    color: #1A75FF;
+    font-weight: 700;
+    font-size: 12px;
+    margin-bottom: -5px;
+  }
+  
+  .description {
+    margin-bottom: 3px;
+    width: 320px;
+    font-weight: 700;
+    font-size: 30px;
+  }
+
+  .made {
+    color: #00000060;
+    font-weight: 900;
+    font-size: 11px;
+    margin-bottom: 5px;
+  }
+  
+  .price {
+    margin-bottom: -16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    & .discount {
+      color: #1a76ff;
+      background-color: #aaccff;
+      padding: 4px;
+      font-size: 12px;
+      font-weight: 900;
+      border-radius: 5px;
+    }
+  }
+
+  .previousPrice {
+    color: #00000032;
+    font-weight: 900;
+    text-decoration: line-through;
+  }
+
+  h5 {
+    margin-bottom: 20px;
+  }
+
+  .size {
+    margin-bottom: 35px;
+    display: flex;
+
+
+    a {
+      font-size: 12px;
+      font-weight: 700;
+      margin: 10px;
+      text-decoration: none;
+      color: #000;
+
+      &:hover {
+        color: #FFF;
+      }
+    }
+
+  }
+
+  .size .buttonSize {
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+  }
+
+  & .buttonSize {
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: -10px;
+    align-items: center;
+    width: 40px;
+    height: 30px;
+    margin-right: 10px;
+    background: none;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #000000;
+    }
+  }
+
+  .add {
+    width: 100%;
+    padding: 7px;
+    background-color: #1A75FF;
+    color: #fff;
+    border-radius: 3px;
+  }
+
+  .buttonSize, .add {
+    font-family: "Merriweather", serif;
+    outline: none;
+    border: none;
+  }
+}
+
+

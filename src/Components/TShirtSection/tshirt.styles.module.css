@@ -1,0 +1,24 @@
+.imageContainer {
+  display: flex;
+  justify-content: end;
+  height: 230px;
+ 
+   & .view {
+    width: 50px;
+    margin-right: 3px;
+
+
+    img {
+    width: 50px;
+    filter: opacity(75%);
+
+      &:hover {
+        border: 2px solid #1A75FF;
+        border-radius: 7px;
+        filter: opacity(100%);
+      }
+    }
+  }
+
+
+  }
